@@ -2,11 +2,12 @@
   padding: 60px 0 60px;
 }
 
-.footer-description {
+.footer__description {
   font-size: 16px;
   line-height: 1;
   font-weight: 400;
   color: #212121;
   text-align: center;
   opacity: 0.7;
+  margin: 0;
 }

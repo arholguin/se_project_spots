@@ -24,3 +24,9 @@ This webpage is deployed to GitHub Pages.
 - [Deployment Link](https://arholguin.github.io/se_project_spots/)
 
 Good luck and have fun!
+
+**Project Video**
+
+This is a link to a video describing the project and how it was created utilizing the various tech and skillsets learned at TripleTen.
+
+- [Project 3 - Spots Video](https://drive.google.com/file/d/1dDfF_0WgRryCLIsYDJwDOJXtQQxNx4rh/view?usp=sharing)
