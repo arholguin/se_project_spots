@@ -46,6 +46,8 @@ function handleEditProfileSubmit(evt) {
   console.log("submitting");
 }
 
+editProfileForm.addEventListener("submit", handleEditProfileSubmit);
+
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
   console.log(addImageLinkEl.value, addImageCaptionEl.value);
