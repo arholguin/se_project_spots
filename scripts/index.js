@@ -139,6 +139,12 @@ const values = {
 
 function handleAddCardSubmit(evt) {
   evt.preventDefault();
+
+  const values = {
+    name: document.querySelector("#card-caption-input").value,
+    link: document.querySelector("#card-image-input").value,
+  };
+
   console.log(addImageLinkEl.value, addImageCaptionEl.value);
   const cardElement = getCardElement(values);
   cardsList.prepend(cardElement);
