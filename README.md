@@ -25,8 +25,11 @@ This webpage is deployed to GitHub Pages.
 
 Good luck and have fun!
 
-**Project Video**
+## Project Pitch Videos
 
-This is a link to a video describing the project and how it was created utilizing the various tech and skillsets learned at TripleTen.
+Check out these videos, where I describe my project
+and some challenges I faced while building it:
 
 - [Project 3 - Spots Video](https://drive.google.com/file/d/1dDfF_0WgRryCLIsYDJwDOJXtQQxNx4rh/view?usp=sharing)
+
+- [Stage 9 - Spots Video](https://drive.google.com/file/d/119Le468MET-HZxh39i90OIFOinMN35kv/view?usp=sharing)
