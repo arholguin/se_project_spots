@@ -3,8 +3,9 @@ const settings = {
   inputSelector: ".modal__input",
   submitButtonSelector: ".modal__submit-btn",
   inactiveButtonClass: "modal__button_disabled",
-  inputErrorClass: "modal__input-type-error",
+  inputErrorClass: "modal__input_type_error",
   errorClass: "modal__error",
+  errorVisibleClass: "modal__error_visible",
 };
 
 const showInputError = (formElement, inputElement, errorMessage) => {
@@ -79,7 +80,7 @@ const setEventListeners = (formElement) => {
 const enableValidation = (config) => {
   const formList = document.querySelectorAll(settings.formSelector);
   formList.forEach((formElement) => {
-    setEventListeners(formElement, settings);
+    setEventListeners(formElement, settings.inputSelector);
   });
 };
 
