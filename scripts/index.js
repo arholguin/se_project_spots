@@ -54,7 +54,7 @@ const addImageCaptionEl = document.querySelector("#card-caption-input");
 
 const previewModal = document.querySelector("#preview-modal");
 const previewModalCloseButton = previewModal.querySelector(
-  ".modal__close_type_preview",
+  ".modal__close-btn_type_preview",
 );
 const previewImageEl = previewModal.querySelector(".modal__image");
 const previewCaptionEl = previewModal.querySelector(".modal__caption");
@@ -162,8 +162,8 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
 
   const values = {
-    name: document.querySelector("#card-caption-input").value,
-    link: document.querySelector("#card-image-input").value,
+    name: document.querySelector(addImageCaptionEl).value,
+    link: document.querySelector(addImageLinkEl).value,
   };
 
   console.log(addImageLinkEl.value, addImageCaptionEl.value);
