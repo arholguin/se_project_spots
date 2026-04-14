@@ -153,7 +153,7 @@
 
 .modal__close-btn_type_preview {
   top: 0;
-  right: 52.5px;
+  right: -52.5px;
   background-image: url(../images/Close\ Icon.svg);
   position: absolute;
   background-color: transparent;
@@ -161,6 +161,7 @@
   width: 40px;
   height: 40px;
   opacity: 0.4;
+  padding: 0;
 }
 
 .modal__close-btn_type_preview:hover {
@@ -187,13 +188,13 @@
     margin: 0 0 24px;
   }
 
-  .modal__close-btn_type_preview {
-    top: -48px;
+  .modal__close-btn {
+    top: 14px;
     right: 0;
   }
 
-  .modal__close-btn {
-    top: 14px;
+  .modal__close-btn_type_preview {
+    top: -48px;
     right: 0;
   }
 

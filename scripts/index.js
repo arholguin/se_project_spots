@@ -162,8 +162,8 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
 
   const values = {
-    name: document.querySelector(addImageCaptionEl).value,
-    link: document.querySelector(addImageLinkEl).value,
+    name: addImageCaptionEl.value,
+    link: addImageLinkEl.value,
   };
 
   console.log(addImageLinkEl.value, addImageCaptionEl.value);
